@@ -1,0 +1,51 @@
+body {
+    background-image: url('blue_purple_shapes_lines_glow_abstraction_hd_abstract-t2.jpg');
+    background-position: center; /* Center the image */
+  }
+
+
+h1 {
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 50px;
+    color: white;
+    margin-top: 0; /* Eliminar margen superior predeterminado */
+  }
+  
+  /* Posicionar el contenedor del juego en la parte superior de la pantalla */
+  #contenedor-juego {
+    position: fixed; /* Posicionamiento absoluto */
+    top: 0; /* Pegar a la parte superior */
+    left: 0; /* Pegar a la izquierda */
+    width: 100%; /* Ocupar todo el ancho de la pantalla */
+    height: 100vh; /* Ocupar toda la altura de la pantalla (viewport height) */
+    display: flex; /* Habilitar flexbox para la alineación vertical */
+    flex-direction: column; /* Alinear elementos en una columna */
+    align-items: center; /* Alinear elementos horizontalmente en el centro */
+    justify-content: center; /* Alinear elementos verticalmente en el centro */
+  }
+  
+  /* Posicionar el contador de tiempo */
+  #countdown-timer {
+    margin-top: 20px; /* Añadir margen superior */
+    font-family: "Century Gothic";
+    color: white;
+    font-size: 30px;
+  }
+
+#imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#puntuacion {
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+}
