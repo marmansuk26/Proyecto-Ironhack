@@ -48,7 +48,7 @@ function iniciarCuentaAtras() {
     puntuacion.textContent = `¡FIN DEL JUEGO! TU PUNTUACIÓN FINAL: ${puntos}`;
   
   
-  countdownTimer.style.display = 'none'; // Hide the countdown timer div
+  countdownTimer.style.display = 'none'; // Esconder el timer
 
   
   }
